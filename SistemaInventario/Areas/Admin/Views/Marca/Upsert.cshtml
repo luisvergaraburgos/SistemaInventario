@@ -1,8 +1,8 @@
-﻿@model SistemaInventario.Modelos.Categoria
+﻿@model SistemaInventario.Modelos.Marca
 @{
     ViewData["Title"] = "Upsert";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    var titulo = "Crear Categoría";
+    var titulo = "Crear Marca";
 }
 
 <form method="post">
@@ -14,7 +14,7 @@
         @if(Model.Id !=0)
         {
             //actualizar
-            titulo = "Actualizar Categoría";
+            titulo = "Actualizar Marca";
             <input type="hidden" asp-for="Id" id="id"/>
         }
         <div class="col-12 border-bottom p-0">
@@ -24,7 +24,7 @@
         <div class="row mb-2 mt-2">
             <div class="form-group col-md-6">
                 <label>Nombre</label>
-                <input type="text" asp-for="Nombre" class="form-control" placeholder="Nombre de la Caregoría" id="nombre"/>
+                <input type="text" asp-for="Nombre" class="form-control" placeholder="Nombre de la Marca" id="nombre"/>
                 <span asp-validation-for="Nombre" class="text-danger"></span>
             </div>
         </div>
@@ -32,7 +32,7 @@
         <div class="row mb-2 mt-2">
             <div class="form-group col-md-6">
                 <label>Deacripción</label>
-                <input type="text" asp-for="Descripcion" class="form-control" placeholder="Descripción de la Caregoría" />
+                <input type="text" asp-for="Descripcion" class="form-control" placeholder="Descripción de la Marca" />
                 <span asp-validation-for="Descripcion" class="text-danger"></span>
             </div>
         </div>
@@ -74,7 +74,7 @@
 
         function validarNombre()
         {
-            var url = '@Url.Content("~/")' + "Admin/Categoria/ValidarNombre";
+            var url = '@Url.Content("~/")' + "Admin/Marca/ValidarNombre";
             var id = '#id';
             var nombre = '#nombre';
 
