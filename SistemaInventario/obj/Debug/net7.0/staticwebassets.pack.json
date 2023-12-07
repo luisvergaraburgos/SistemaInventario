@@ -13,8 +13,32 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\icono.ico",
+      "PackagePath": "staticwebassets\\imagenes\\icono.ico"
+    },
+    {
+      "Id": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\icono.png",
+      "PackagePath": "staticwebassets\\imagenes\\icono.png"
+    },
+    {
+      "Id": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\197e8b2d-bd7d-457c-8cd3-972d0fc24784.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\197e8b2d-bd7d-457c-8cd3-972d0fc24784.JPG"
+    },
+    {
+      "Id": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\2dd22883-4b03-4256-b637-3cae07c698bb.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\2dd22883-4b03-4256-b637-3cae07c698bb.JPG"
+    },
+    {
+      "Id": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\5ad75f08-cd55-40f1-9270-c62e2c5cba1d.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\5ad75f08-cd55-40f1-9270-c62e2c5cba1d.JPG"
+    },
+    {
       "Id": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\aae2ac9f-47a3-4001-9ad5-567a42a52d0c.JPG",
       "PackagePath": "staticwebassets\\imagenes\\producto\\aae2ac9f-47a3-4001-9ad5-567a42a52d0c.JPG"
+    },
+    {
+      "Id": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\ac2803b5-2d6f-4b28-813d-40230ddf4e2c.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\ac2803b5-2d6f-4b28-813d-40230ddf4e2c.JPG"
     },
     {
       "Id": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\da190687-7143-4a3c-b838-9889c43a0972.JPG",
@@ -23,6 +47,10 @@
     {
       "Id": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\ec7f980a-951f-4fe5-b85f-ffca016ca21d.JPG",
       "PackagePath": "staticwebassets\\imagenes\\producto\\ec7f980a-951f-4fe5-b85f-ffca016ca21d.JPG"
+    },
+    {
+      "Id": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\producto\\f20eced7-4db9-4867-b5a1-2f44dbbbe7cc.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\f20eced7-4db9-4867-b5a1-2f44dbbbe7cc.JPG"
     },
     {
       "Id": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\bodega.js",

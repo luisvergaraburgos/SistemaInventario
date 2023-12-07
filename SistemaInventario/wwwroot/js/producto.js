@@ -1,4 +1,7 @@
-﻿let datatable;
+﻿
+
+
+let datatable;
 
 $(document).ready(function () {
     loadDataTable();
