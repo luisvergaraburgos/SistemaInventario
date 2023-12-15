@@ -15,6 +15,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
 
         IUsuarioAplicacionRepositorio UsuarioAplicacion { get; }
 
+
         Task Guardar();
     }
 }
