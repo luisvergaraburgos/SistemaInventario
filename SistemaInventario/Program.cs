@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
 using SistemaInventario.AccesoDatos.Data;
 using SistemaInventario.AccesoDatos.Repositorio;
@@ -15,8 +16,20 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
+    .AddErrorDescriber<ErrorDescriber>()
     .AddDefaultTokenProviders()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+builder.Services.Configure<IdentityOptions>(Options => 
+{
+    Options.Password.RequireDigit = false;
+    Options.Password.RequireLowercase = true;
+    Options.Password.RequireNonAlphanumeric = false;
+    Options.Password.RequireUppercase = false;
+    Options.Password.RequiredLength = 6;
+    Options.Password.RequiredUniqueChars = 1;
+});
+
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 builder.Services.AddScoped<IUnidadTrabajo, UnidadTrabajo>();

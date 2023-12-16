@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iKrfkSAthE/aSoMz4IrXNO/T+ClFGKOBc/TvwU4dHnY=",
+  "Hash": "c7vP/N/SXgoiMwC8l//AqPqtlagZHRV4TB77KabaKsM=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -1358,6 +1358,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\usuario.js",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "js/usuario.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\usuario.js"
     },
     {
       "Identity": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
