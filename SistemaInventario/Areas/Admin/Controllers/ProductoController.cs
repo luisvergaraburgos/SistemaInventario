@@ -78,7 +78,7 @@ namespace SistemaInventario.Areas.Admin.Controllers
                 else
                 {
                     //actualizar
-                    var objProducto = await _unidadTrabajo.Producto.ObteberPrimero(p=>p.Id == productoVM.Producto.Id, isTracking:false);
+                    var objProducto = await _unidadTrabajo.Producto.ObtenerPrimero(p=>p.Id == productoVM.Producto.Id, isTracking:false);
                     if(files.Count>0) //Si se carga una nueva imagen para el producto existente
                     {
                         string upload = webRootPath + DS.ImagenRuta;

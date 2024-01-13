@@ -51,7 +51,7 @@ namespace SistemaInventario.Areas.Admin.Controllers
 
         public async Task<IActionResult> BloquearDesbloquear([FromBody] string id)
         {
-            var usuario = await _unidadTrabajo.UsuarioAplicacion.ObteberPrimero(u => u.Id == id);
+            var usuario = await _unidadTrabajo.UsuarioAplicacion.ObtenerPrimero(u => u.Id == id);
             if (usuario == null)
             {
                 return Json(new { success = false, Message = "Error de Usuario " });

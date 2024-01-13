@@ -81,7 +81,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio
             return PagedList<T>.ToPagedList(query, parametros.PageNumber, parametros.PageSize);
         }
 
-        public async Task<T> ObteberPrimero(Expression<Func<T, bool>> filtro = null, string incluirPropiedades = null, bool isTracking = true)
+        public async Task<T> ObtenerPrimero(Expression<Func<T, bool>> filtro = null, string incluirPropiedades = null, bool isTracking = true)
         {
             IQueryable<T> query = dbSet;
             if (filtro != null)

@@ -26,7 +26,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
             bool isTracking = true
             );
 
-        Task<T> ObteberPrimero(
+        Task<T> ObtenerPrimero(
             Expression<Func<T, bool>> filtro = null,
             string incluirPropiedades = null,
             bool isTracking = true
