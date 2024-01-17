@@ -16,7 +16,9 @@ namespace SistemaInventario.Modelos.ViewModels
 
         public CarroCompra CarroCompra { get; set; }
 
-        
+        public IEnumerable<CarroCompra> CarroCompraLista { get; set; }
+
+        public Orden Orden {  get; set; }   
 
 
     }
