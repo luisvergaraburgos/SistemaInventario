@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LOw0H2KqiRkhNmby03i3VZHLIQT3c6ZHHcEarhhHyIZCGqnziYtkuHi+wPbmn80bSMXL9vwrgYGJTSdgQhOm7Q==",
+  "dgSpecHash": "lNOpT/eI13mTvRZGY5PbYThg9l0dMMwhHkfl97IGDzXeGu5nOr8gnPmChovHKkKpjEDKrC8nQ1XQYEm1qxL0GQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj",
   "expectedPackageFiles": [
@@ -194,6 +194,7 @@
     "C:\\Users\\luisv\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
     "C:\\Users\\luisv\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\luisv\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.4\\sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\luisv\\.nuget\\packages\\stripe.net\\43.11.0\\stripe.net.43.11.0.nupkg.sha512",
     "C:\\Users\\luisv\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\luisv\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\luisv\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",

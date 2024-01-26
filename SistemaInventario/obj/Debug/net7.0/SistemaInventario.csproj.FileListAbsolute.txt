@@ -594,3 +594,4 @@ C:\Users\luisv\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0
 C:\Users\luisv\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Rotativa\Windows\wkhtmltoimage.exe
 C:\Users\luisv\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Rotativa\Windows\wkhtmltopdf.exe
 C:\Users\luisv\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Rotativa.AspNetCore.dll
+C:\Users\luisv\source\repos\SistemaInventario\SistemaInventario\bin\Debug\net7.0\Stripe.net.dll

@@ -3275,6 +3275,23 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Stripe.net/43.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "System.Configuration.ConfigurationManager": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Stripe.net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -9228,6 +9245,29 @@
         "sqlitepclraw.provider.e_sqlite3.nuspec"
       ]
     },
+    "Stripe.net/43.11.0": {
+      "sha512": "UQUBwiqC3AzLHNts6unZnSBEJK06VPnGiSIL8V0W8kn0MruQMFdi/8VmrVcdAwvlsxHQdSUAKKZfiCjGL4dSfQ==",
+      "type": "package",
+      "path": "stripe.net/43.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/net461/Stripe.net.dll",
+        "lib/net461/Stripe.net.xml",
+        "lib/net5.0/Stripe.net.dll",
+        "lib/net5.0/Stripe.net.xml",
+        "lib/net6.0/Stripe.net.dll",
+        "lib/net6.0/Stripe.net.xml",
+        "lib/netcoreapp3.1/Stripe.net.dll",
+        "lib/netcoreapp3.1/Stripe.net.xml",
+        "lib/netstandard2.0/Stripe.net.dll",
+        "lib/netstandard2.0/Stripe.net.xml",
+        "stripe.net.43.11.0.nupkg.sha512",
+        "stripe.net.nuspec"
+      ]
+    },
     "System.AppContext/4.3.0": {
       "sha512": "fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
       "type": "package",
@@ -13332,7 +13372,8 @@
       "Rotativa.AspNetCore >= 1.3.2",
       "SistemaInventario.AccesoDatos >= 1.0.0",
       "SistemaInventario.Modelos >= 1.0.0",
-      "SistemaInventario.Utilidades >= 1.0.0"
+      "SistemaInventario.Utilidades >= 1.0.0",
+      "Stripe.net >= 43.11.0"
     ]
   },
   "packageFolders": {
@@ -13427,6 +13468,10 @@
           "Rotativa.AspNetCore": {
             "target": "Package",
             "version": "[1.3.2, )"
+          },
+          "Stripe.net": {
+            "target": "Package",
+            "version": "[43.11.0, )"
           }
         },
         "imports": [

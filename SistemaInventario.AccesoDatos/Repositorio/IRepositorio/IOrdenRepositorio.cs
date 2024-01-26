@@ -10,5 +10,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
     public interface IOrdenRepositorio : IRepositorio<Orden>
     {
         void Actualizar (Orden orden);
+        void ActualizarEstado (int id, string ordenEstado, string pagoEstado);//recive id, ordenEstado y pagoEstado
+        void ActualizarPagoStripeId(int id, string sessionId, string transaccionId);
     }
 }

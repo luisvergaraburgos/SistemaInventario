@@ -22,5 +22,38 @@ namespace SistemaInventario.AccesoDatos.Repositorio
         {
             _db.Update(orden);
         }
+
+        public void ActualizarEstado(int id, string ordenEstado, string pagoEstado)
+        {
+            var ordenBD = _db.Ordenes.FirstOrDefault(o => o.Id == id);
+
+            if (ordenBD != null)
+            {
+                ordenBD.EstadoOrden = ordenEstado;
+                ordenBD.EstadoPago = pagoEstado;
+                
+            }
+        }
+
+        public void ActualizarPagoStripeId(int id, string sessionId, string transaccionId)
+        {
+            var ordenBD = _db.Ordenes.FirstOrDefault(o => o.Id == id);
+            if (ordenBD != null)
+            {
+                if (!String.IsNullOrEmpty(sessionId))//Si Exita la sessión
+                {
+                    ordenBD.SessionId = sessionId;
+
+                }
+                if (!String.IsNullOrEmpty(transaccionId))//Si Exita la transacción se procede a actualizar
+                {
+                    ordenBD.TransaccionId = transaccionId;
+                    ordenBD.FechaPago = DateTime.Now;
+
+                }
+            }
+
+            
+        }
     }
 }

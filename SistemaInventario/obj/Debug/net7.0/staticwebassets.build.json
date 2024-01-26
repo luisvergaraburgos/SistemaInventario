@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9Als/ZOpvJL+bFaXOBil1RciD6wS5WOpxex/GCVCPF0=",
+  "Hash": "MXGN93nm7lk1PKUQPuGtwazvv+SPfKmAorEZP+TItWk=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\confirmacion.jpg",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "imagenes/confirmacion.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\confirmacion.jpg"
     },
     {
       "Identity": "C:\\Users\\luisv\\source\\repos\\SistemaInventario\\SistemaInventario\\wwwroot\\imagenes\\icono.ico",
